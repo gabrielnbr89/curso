@@ -1,0 +1,32 @@
+h1{
+    text-align: center;  
+}
+
+h2{
+    color:red;
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    font-style: italic;
+}
+p{
+    text-align: justify;
+}
+#contenido{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#foto_perfil{
+    display: block;
+    margin: auto;
+}
+.fondo_celeste{
+    background-color:rgba(39, 185, 245, 0.28)
+}
+.resaltar{
+    font-weight: bold;
+}
+.interlineado{
+    margin-top: 1rem;
+}
