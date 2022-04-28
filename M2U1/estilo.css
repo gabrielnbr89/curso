@@ -1,0 +1,105 @@
+h1 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    font-style: italic;
+}
+
+#perfil {
+    border-radius: 7px 40px 7px 40px;
+    -webkit-border-radius: 7px 40px 7px 40px;
+    -moz-border-radius: 7px 40px 7px 40px;
+
+    background: #009cff;
+    background: linear-gradient(315deg, #009cff 0%, #1b00ff 90%);
+    background: -webkit-linear-gradient(315deg, #009cff 0%, #1b00ff 90%);
+    background: -moz-linear-gradient(315deg, #009cff 0%, #1b00ff 90%);
+    
+    box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    
+    padding: 1rem;
+}
+
+p {
+    text-align: justify;
+    column-count: 2;
+    column-gap: 5rem;
+    column-rule: 1px solid rgb(0, 0, 0);
+    color: white;
+}
+
+#contenido {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#foto_perfil {
+    display: block;
+    margin: auto;
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    filter: grayscale(20%) brightness(90%);
+    -webkit-filter: grayscale(20%) brightness(90%);
+    -moz-filter: grayscale(20%) brightness(90%);
+}
+
+.fondo_celeste {
+    background-color:#0f921683;
+}
+
+.resaltar {
+    font-weight: bold;
+}
+
+.interlineado {
+    margin-top: 1rem;
+}
+
+#encabezado {
+    margin-inline: 15rem;
+    background: #ffffff;
+    background: linear-gradient(90deg, #ffffff 50%, #000000bb 55%);
+    background: -webkit-linear-gradient(90deg, #ffffff 50%, #000000bb 55%);
+    background: -moz-linear-gradient(90deg, #ffffff 50%, #000000bb 55%);
+
+    box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+}
+
+.caracteristicas{
+    border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+
+    background: #009cff;
+    background: linear-gradient(315deg, #009cff 0%, #1b00ff 90%);
+    background: -webkit-linear-gradient(315deg, #009cff 0%, #1b00ff 90%);
+    background: -moz-linear-gradient(315deg, #009cff 0%, #1b00ff 90%);
+    
+    box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 9px -7px rgba(0, 0, 0, 0.75);
+    
+    padding: 1rem;
+    margin-left: 7%;
+    margin-top: 3%;
+    float: left;
+}
