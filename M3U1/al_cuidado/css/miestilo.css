@@ -44,7 +44,7 @@ nav ul{
 }
 
 nav ul li{
-    flex-grow: 1;
+    flex-grow: 0.2;
 }
 
 nav ul li a{
