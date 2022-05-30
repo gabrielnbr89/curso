@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor</title>
+</head>
+<body>
+    
+
+    <script>
+        var cant;
+        var vector=[];
+        var mayor=0;
+
+        cant=prompt('Ingrese el tamaño del vecctor:','');
+        cant=parseInt(cant);
+        for(i=0;i<cant;i++){
+            vector[i]=prompt('Ingrese un número','');
+        }
+        
+        document.write('El vector es:'+'<br>');
+        
+        for(i=0;i<cant;i++){
+            document.write(vector[i]+' ');
+        }
+
+        for(i=0;i<cant;i++){
+            if(vector[i]>mayor){
+                mayor=vector[i];
+            }
+        }
+        document.write('<br>' + 'el mayor valor es: ' + mayor);
+        </script>
+</body>
+</html>
