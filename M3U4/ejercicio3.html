@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprobados</title>
+</head>
+
+<body>
+    <ul id="lista"></ul>
+    <h2>Aprobados:</h2>
+    <ul id="aprobados"></ul>
+
+    <script>
+        var alumnos = [
+            {
+                nombre: 'Juan Gomez',
+                nota: 7
+            }, {
+                nombre: 'Pedro Rodriguez',
+                nota: 4
+            }, {
+                nombre: 'Roxana García',
+                nota: 8
+            }, {
+                nombre: 'Luciano Lopez',
+                nota: 5
+            }, {
+                nombre: 'Fernanda Gimenez',
+                nota: 6
+            }, {
+                nombre: 'Florencia Martinez',
+                nota: 10
+            }, {
+                nombre: 'Raul Sanchez',
+                nota: 7
+            }, {
+                nombre: 'Sandra Figueroa',
+                nota: 8
+            }
+        ];
+
+        /* IMPRIME LISTA DE ALUMNOS CON SUS NOTAS */
+
+        for (i = 0; i < alumnos.length; i++) {
+
+            var node = document.createElement("li");
+            var textnode = document.createTextNode("Alumno: " + alumnos[i].nombre + " - Nota: " + alumnos[i].nota);
+            node.appendChild(textnode);
+            document.getElementById("lista").appendChild(node);
+        }
+
+        /* MÉTODO PARA FILTRAR LOS ALUMNOS APROBADOS */
+
+        var aprobados = alumnos.filter(a => a.nota >= 7);
+
+        /* IMPRIME ALUNOS APROBADOS */
+
+        for (i = 0; i < aprobados.length; i++) {
+
+            var node = document.createElement("li");
+            var textnode = document.createTextNode("Alumno: " + aprobados[i].nombre + " - Nota: " + aprobados[i].nota);
+            node.appendChild(textnode);
+            document.getElementById("aprobados").appendChild(node);
+        }
+
+    </script>
+</body>
+
+</html>

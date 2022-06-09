@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color de fondo</title>
+</head>
+
+<body style="height: 100%;">
+    <div style="display: flex; justify-content: space-around;">
+        <input type="button" style="background-color: red; width: 100px; height: 100px; border-width: 8px;"
+            onclick="colorFondo(1)">
+        <input type="button" style="background-color: blue; width: 100px; height: 100px; border-width: 8px;"
+            onclick="colorFondo(2)">
+        <input type="button" style="background-color: green; width: 100px; height: 100px; border-width: 8px;"
+            onclick="colorFondo(3)">
+    </div>
+
+
+    <script>
+        var element = document.getElementsByTagName("body")[0];
+        function colorFondo(p){
+            switch (p) {
+                case 1: element.style = 'background-color: red;';
+                    break;
+                case 2: element.style = 'background-color: blue;';
+                    break;
+                case 3: element.style = 'background-color: green;';
+                    break;
+            }
+        }
+    </script>
+</body>
+
+</html>

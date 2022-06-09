@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textarea length</Textarea></title>
+</head>
+
+<body style="display: flex; justify-content: center;">
+    <div style="width: 60%;">
+        <form action="" id="formulario">
+            <p>
+                Ingrese el texto del cual desea contar los caracteres:
+            </p>
+            <p>
+                <textarea id="texto" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <button onclick="contador()">Contar</button>
+            </p>
+        </form>
+</div>
+    <script>
+        function contador() {
+           /*  var txt = ; */
+            var num = document.getElementById("texto").value.length;
+            console.log(num);
+            alert("El texto tiene " + num + " caracteres.");
+        }
+    </script>
+</body>
+
+</html>
