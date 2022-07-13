@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = (props) => {
     return (
-        <div>
+        <footer>
             <p>Diseñado por Gabriel Barrionuevo - &copy; 2022</p>
-        </div>
+        </footer>
     );
 }
 export default Footer;

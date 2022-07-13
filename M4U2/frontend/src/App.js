@@ -1,5 +1,13 @@
 import{BrowserRouter,Routes,Route} from "react-router-dom";
 
+import "./estilos/App.css";
+import "./estilos/Header.css";
+import "./estilos/Footer.css"
+import "./estilos/Nav.css"
+import "./estilos/Noticias.css"
+import "./estilos/SeParte.css"
+import "./estilos/Servicios.css"
+
 import Header from './componentes/layout/Header';
 import Nav from './componentes/layout/Nav';
 import Footer from './componentes/layout/Footer';

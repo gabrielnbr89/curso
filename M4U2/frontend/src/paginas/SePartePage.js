@@ -31,26 +31,26 @@ const SepartePage = (props) => {
         <div className="contacto">
             <h3>Completa el siguiente formulario para que no spongamos en contacto contigo</h3>
             <form action="" method="">
-                <p> <label for="">Eres:</label>
-                    <input type="radio" name="hm" value="empresa"/> Empresa
-                    <input type="radio" name="hm" value="persona"/> Persona
+                <p> Eres:
+                    <label><input type="radio" name="hm" value="empresa"/> Empresa</label>
+                    <label><input type="radio" name="hm" value="persona"/> Persona</label>
                 </p>
 
                 <ul>
                     <li>
-                        <label for="nombre">Nombre:</label>
+                        <label htmlFor="nombre">Nombre:</label>
                         <input type="text" id="nombre" name="nombre"/>
                     </li>
                     <li>
-                        <label for="telefono">Teléfono:</label>
+                        <label htmlFor="telefono">Teléfono:</label>
                         <input type="text" id="telefono" name="telefono"/>
                     </li>
                     <li>
-                        <label for="mail">e-mail:</label>
-                        <input type="email" id="mail" name="email"/>
+                        <label htmlFor="email">e-mail:</label>
+                        <input type="email" id="email" name="email"/>
                     </li>
                     <li>
-                        <label for="msg">Mensaje:</label>
+                        <label htmlFor="msg">Mensaje:</label>
                         <textarea id="msg" name="msg" placeholder="Quiero aportar a la causa..."></textarea>
                     </li>
                 </ul>
