@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+<p>Prueba de {{title}}</p>
+{{#if opcion}}
+    <p>Elejiste la opción {{valor}}. <a href="/salir">Regresar</a></p>
+{{/if}}
+
+{{#unless opcion}}
+    <p>Elige una opción</p>
+    <form action="/ingresar" method="post">
+    <label><input type="radio" name="valor" value="incorrecta">No elijas esta opción</label> 
+    <label><input type="radio" name="valor" value="correcta">Elige esta opción</label>
+    <button>Continuar</button>
+    </form>
+{{/unless}}
