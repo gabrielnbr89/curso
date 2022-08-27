@@ -1,0 +1,74 @@
+.contacto h3{
+    font-style: italic;
+    color:#004ba2;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto form{
+    width: 70%;
+    padding: 15px;
+}
+
+.contacto form p input{
+    margin-left: 35px;
+}
+
+.contacto form ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.contacto form ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contacto form ul li label{
+    min-width: 80px;
+}
+
+.contacto form ul li textarea,
+.contacto form ul li input{
+    width: 100%;
+}
+
+.contacto form ul li:nth-child(4){
+    align-items: flex-start;
+}
+
+.contacto form ul li textarea{
+    resize: none;
+    height: 100px;
+}
+
+.contacto form p input[type="submit"]{
+    background-color:#227be0;
+    color: white;
+    border-radius: 5px;
+    margin: 0;
+    position: relative;
+    left: 80px;
+    padding: 5px;
+}
+
+.contacto form p input[type="submit"]:hover{
+    background-color: #f78215;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datos p{
+    text-align: center;
+}
