@@ -28,4 +28,5 @@ router.get('/novedades', async function (req, res, next) {
     res.json(novedades);
 });
 
+
 module.exports = router;
